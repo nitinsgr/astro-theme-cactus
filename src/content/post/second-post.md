@@ -38,7 +38,7 @@ I was a solo UX/UI Designer on this project, where I had the opportunity to take
 
 ### Design Process
 
-<img src="/Plan.png" alt="Alt text" title="a title" width="700" height="700" />
+<img src="/dsd.png" alt="Alt text" title="a title" width="700" height="700" />
 
 ### Understanding the Challenge
 
