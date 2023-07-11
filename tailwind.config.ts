@@ -28,7 +28,8 @@ export default {
 			},
 			fontFamily: {
 				// Add any custom fonts here
-				sans: [...fontFamily.sans],
+				opensans: ['"Inter-Bold"', "sans-serif"],
+				sans: ["InterVariable", "Inter", ...fontFamily.sans],
 				serif: [...fontFamily.serif],
 			},
 			transitionProperty: {

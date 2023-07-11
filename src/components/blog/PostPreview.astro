@@ -14,10 +14,13 @@ const datetime = date.toISOString();
 const postDate = getFormattedDate(date);
 ---
 
-<time datetime={datetime} class="min-w-[120px] text-gray-500">{postDate}</time>
+<time datetime={datetime} class="min-w-[120px] text-gray-500 font-sans">{postDate}</time>
+{post.data.ogImage && (
+	<img width="400" height="400" src={post.data.ogImage} alt={post.data.title} />
+  )}
 <Element>
-	<a href={`/posts/${post.slug}/`} class="cactus-link" rel="prefetch">
+	<a href={`/posts/${post.slug}/`} class="cactus-link font-sans" rel="prefetch">
 		{post.data.title}
 	</a>
 </Element>
-{withDesc && <q class="line-clamp-3 block italic">{post.data.description}</q>}
+{withDesc && <q class="line-clamp-3 block italic font-sans">{post.data.description}</q>}
