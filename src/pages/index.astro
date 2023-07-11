@@ -67,8 +67,9 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 		</div>
 	  </section>
 	<section aria-label="Blog post list font-sans" class="mt-16">
-		<h2 class="title mb-4 text-xl font-sans">Posts</h2>
-		<ul class="space-y-4 sm:space-y-2">
+		<h2 class="title mb-4 text-2xl font-opensans">Recent Work</h2>
+		<hr>
+		<ul class="container mt-6 m-auto grid lg:grid-cols-2 gap-4 sm:grid-cols-1">
 			{
 				allPostsByDate.map((p) => (
 					<li class="flex flex-col gap-x-2 sm:flex-row">
@@ -78,4 +79,30 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 			}
 		</ul>
 	</section>
+	<div class="mt-32">
+		<h2 class="title mb-4 text-2xl font-opensans">What you'll get</h2>	
+		<hr>
+		<div class="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 mt-2 font-opensans mt-8">
+			
+			<a class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+				<p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+			</a>
+			<a class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+				<p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+			</a>
+			<a class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+				<p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+			</a>
+			<a class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+				<p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+			</a>
+
+		  
+			
+		  </div>
+		  <div>
 </PageLayout>
