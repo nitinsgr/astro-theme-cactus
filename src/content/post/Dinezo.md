@@ -48,7 +48,7 @@ The covid-19 pandemic has significantly impacted the restaurant industry, Leadin
 
 ### During the Covid Pandemic
 
-<ul class="max-w-lg space-y-2 text-gray-500 list-disc list-inside dark:text-gray-400">
+<ul class="max-w-lg space-y-2 text-gray-800 list-disc list-inside dark:text-gray-400">
     <li>
        Health and safety measures : Restaurants enforced health protocols, including sanitization, social distancing, and limited seating, impacting revenue and operations.
     </li>
@@ -193,6 +193,23 @@ Using the crazy’8 technique, solution to tackle the poor experience and usabil
 
 ### Brainstorming and Dot Voting Excerise
 
+<img src="/brainstorm.png" alt="Alt text" title="a title" width="700" height="700" />
+
 ### User Storyboarding
 
 <img src="/story.jpeg" alt="Alt text" title="a title" width="900" height="700" />
+
+## Portfolio
+
+---
+
+### Wireframes
+
+<img src="/wire.jpeg" alt="Alt text" title="a title" width="900" height="700" />
+
+<img src="/wire2.jpeg" alt="Alt text" title="a title" width="900" height="700" />
+
+<div class="mt=32">
+</div>
+
+<img src="/prototype.png" alt="Alt text" title="a title" width="900" height="700" />

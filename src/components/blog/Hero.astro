@@ -22,43 +22,36 @@ function getTagColorClass(index) {
 }
 ---
 
-{
-	data.ogImage && (
-		<div class="aspect-h-9  max-w-xl aspect-w-24 mb-6 max-w-none">
+<div class="flex flex-col">
+	{data.ogImage && (
+		<div class="aspect-h-9 max-w-5xl aspect-w-24 mb-6 prose max-w-none">
 			<Image
 				src={data.ogImage}
 				alt={data.description}
-				class="object-contain rounded-lg"
-				loading="eager"8
-				width={400} // Add the width of your image here
-          height={200} // Add the height of your image here
+				class="object-fit"
+				loading="eager"
+				width={600} // Add the width of your image here
+				height={400} // Add the height of your image here
 				fetchpriority="high"
 			/>
 		</div>
-	)
-}
-	<div class="flex flex-wrap ">
-		<div class=""><h1 class=" text-3xl font-semibold font-opensans leading-relaxed text-gray-900 dark:text-white">{data.title}</h1>
-			
-<p class="text-left text-gray-500 dark:text-gray-400 mt-2 mb-2">{data.description}</p>
+	)}
+	<div class="flex flex-col items-left">
+		<h1 class="text-3xl font-semibold font-opensans leading-relaxed text-gray-900 dark:text-white">{data.title}</h1>
+		<p class="text-left text-gray-500 dark:text-gray-400 mt-2 mb-2">{data.description}</p>
 	</div>
-	{
-		!!data.tags?.length && (
+	{!!data.tags?.length && (
 		<div class="mt-1 flex flex-wrap gap-2 sm:mt-0">
-			<p class="mr-2 mt-1 font-opensans text-[14px]">Tags:</p>
+			<p class="mr-2 mt-1 font-opensans text-sm sm:text-base">Tags:</p>
 			{data.tags.map((tag, i) => (
-				<div
-				class={` ${getTagColorClass(i)} pt-1 text-grey text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-white dark:text-black `}
-				key={i}
-				>
-				<a href={`/tags/${tag}`}>{tag}</a>
+				<div class={` ${getTagColorClass(i)} pt-1 text-gray text-xs sm:text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-white dark:text-black`} key={i}>
+					<a href={`/tags/${tag}`}>{tag}</a>
 				</div>
 			))}
+		</div>
+	)}
 </div>
-		)
-	  }
 
-	</div>	
 
 
 

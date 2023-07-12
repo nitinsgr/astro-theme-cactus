@@ -3,7 +3,7 @@
 @layer base {
 	:root {
 		color-scheme: light;
-		--theme-bg: #fafafa;
+		--theme-bg: #ffffff;
 		--theme-link: #567c77;
 		--theme-text: #22272a;
 		--theme-accent: #1a1415;

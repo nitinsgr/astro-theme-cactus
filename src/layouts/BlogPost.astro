@@ -38,8 +38,8 @@ const { headings } = await post.render();
 </script>
 
 <BaseLayout meta={{ title, description, articleDate, ogImage: socialImage }}>
-	<div class="gap-x-10 lg:flex lg:items-start font-opensans">
-		{
+	<div class="gap-x-10 lg:max-w-3xl lg:flex lg:items-start font-opensans">
+		<!-- {
 			!!headings.length && (
 				<aside class="sticky top-20 order-2 -me-32 hidden basis-64 lg:block">
 					<h2 class="font-semibold">Table of Contents</h2>
@@ -59,14 +59,20 @@ const { headings } = await post.render();
 					</ul>
 				</aside>
 			)
-		}
+		} -->
 		<article class="flex-grow break-words" data-pagefind-body>
-			<div id="blog-hero w-80"><BlogHero content={post} /></div>
-			<div
-				class="prose mt-12 "
-			>
-				<slot />
-			</div>
+			<div id="blog-hero"><BlogHero content={post} /></div>
+			<div class="grid grid-cols-2 mt-20">
+				<div class="col-span-1">
+				  <!-- ... -->
+				</div>
+				<div class="col-span-3 flex items-center justify-center">
+				  <article class="prose max-w-2xl">
+					<slot/>
+				  </article>
+				</div>
+			  </div>
+			
 			<button
 			class="sticky text-accent underline cursor-pointer"
 			>
