@@ -31,19 +31,8 @@
 		@apply mx-auto flex h-full max-w-4xl flex-col bg-bgColor px-8 pt-16 font-mono text-sm font-normal text-textColor antialiased;
 	}
 
-	@font-face {
-		font-family: 'Inter-Regular';
-		font-style: normal;
-		font-weight: 400;
-		font-display: block; /* This property will help us not flash unstyled text for a couple hundred milliseconds, and then it would act like font-display: swap */
-		src: url('/fonts/Inter-Regular.tff') format('tff');
-	  }
-
-	  @font-face {
-		font-family: 'Inter-Bold';
-		font-display: block; /* This property will help us not flash unstyled text for a couple hundred milliseconds, and then it would act like font-display: swap */
-		src: url('/fonts/Inter-Bold.tff') format('tff');
-	  }
+	@font-face {font-family: "Suisse Intl"; src: url("//db.onlinewebfonts.com/t/eb270b13b84d5a43462737e3fb0a268d.eot");}
+	
 }
 
 @tailwind components;

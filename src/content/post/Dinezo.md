@@ -1,22 +1,18 @@
 ---
 title: "Dinezo- Improving Dining Experience"
 publishDate: "12 June 2022"
-description: "Another example post for Astro Cactus, this time written in a plain markdown file"
+description: "Designing Extraordinary Dining Experiences through User-Centric Innovation"
 ogImage: "/dinezo.png"
 tags: ["example", "blog"]
 ---
 
 ## Overview
 
+This case study is written totally for my personal understanding and I was not part of any project that involved enhancing the dining experience. However, as a UX designer, I believe that any experience can be improved with the right approach and design.  
+
 ---
 
 ### Introduction
-
-This case study is written totally for my personal understanding and I was not part of any project that involved enhancing the dining experience. However, as a UX designer, I believe that any experience can be improved with the right approach and design.
-
-*By identifying pain points and areas for improvement, I hope to demonstrate the value of user-centered design in creating a more enjoyable and memorable dining experience. Please note that this case study is solely intended for educational purposes and not related to any specific project or client.*
-
-### Problem Statement in hand
 
 <blockquote class="p-4 my-2">
     <p class="text-[20px] font-opensans italic font-medium leading-relaxed text-gray-900 dark:text-white">The current restaurant reservation app for diners lacks usability and efficiency, resulting in a frustrating and inconvenient booking experience. Users encounter challenges in finding available reservations, navigating through a complex booking process, and receiving personalized recommendations. Communication with restaurants is inefficient, and the review system is inadequate for making informed dining choices.*</p>
@@ -201,7 +197,7 @@ Using the crazy’8 technique, solution to tackle the poor experience and usabil
 
 ## Portfolio
 
----
+I created low-fi wireframes, followed by hi-fi with Figma, so we can test out our idea
 
 ### Wireframes
 
@@ -213,3 +209,92 @@ Using the crazy’8 technique, solution to tackle the poor experience and usabil
 </div>
 
 <img src="/prototype.png" alt="Alt text" title="a title" width="900" height="700" />
+
+## Usability Testing (Link to Usability test Report)
+
+---
+
+To see how people interact with wireframes and whether the product idea meets their expectations, I conducted several iterations of usability testing.
+
+A total number of 8 participants were tested with the product. participants in the test were daily customers and users who uses similar application to book online reservation to plan their dine-out. Participants were recruited by me and were compensated with Amazon Gift Cards for their time.
+
+### Participant’s Background
+
+Recruited participants had a mix of backgrounds and demographic characteristics conforming to the recruitment screener.
+
+### Study Design
+
+Overall, the objective of this test was to uncover areas where the application performed well that is, effectively, efficiently and satisfactory would be the area where application would fail to meet the needs of the users. This test serves as both means to record or benchmark current usability, but also to identify areas where improvement must be made. A detailed description is shared in the usability test report (Link)
+
+![Tasks and Scenarios for the test](/Study.png)
+
+Tasks and Scenarios for the test
+
+### Test Environment
+
+After careful consideration, I settled on a combination of video conferencing software and screen sharing tools that were user friendly and ensured a seamless testing experience.
+
+Screen Sharing and Video Conferencing: Google Meet
+
+Test Setup and Environment: Quant-UX (Open-source tool to measure your product success)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc9a5f1b-57b6-4757-9f25-fec2a46a9628/Untitled.png)
+
+### Defining Usability Metrics
+
+To measure the usability of the product the goal for users is to interact with prototype effectively, efficiently and with acceptable level of satisfaction. To assess the test goal
+
+- **Effectiveness**  should be measured through participant’s success rate and error rate.
+- **Efficiency** should be measured the average time taken on each task and time based efficiency method.
+- **Satisfaction** should be measured through task rating and SEQ shared with the participant upon completion of each task.
+
+## 8 Results and Measurements
+
+---
+
+### Quantitative Data Measurement
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/55478f61-fa37-4518-9be4-2fb116fa53b4/Untitled.png)
+
+- Task completion rates were analyzed to measure overall product effectiveness. Task 2 had a 62% completion rate, indicating room for improvement. Task 3 achieved 100% completion. Error rates were also considered, with Task 2 having a 70% error rate, while Task 4 performed the best with the lowest errors. Areas requiring improvement include Task 2 and Task 1, ensuring better user experience and increased effectiveness.
+- The efficiency rate and time on task completion were measured to assess performance. Task 2 had the highest average time on task, taking 257 goal/sec. In contrast, Task 4 had the quickest completion time. However, when evaluating overall relative efficiency, Task 4 achieved a lower efficiency rate of 76%, while Task 1 had the highest efficiency rate of 100% for completing the task.
+- The satisfaction rate was assessed using a combination of qualitative and quantitative data. Participants were asked open-ended questions after completing each task, allowing them to provide subjective feedback. Additionally, participants were asked to complete a SEQ (Semantic Differential Scale) and rate the task on a Likert scale ranging from 1 to 7.
+
+### Qualitative Data Measurement
+
+I recorded their behavior, interactions, and reactions during the testing session. This included noting any gestures, facial expressions, and verbal cues that provided insights into their thoughts and experiences. I paid close attention to their navigation patterns, the features they interacted with, and any difficulties or confusion they encountered.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5aecf1b1-b521-4b5e-b5db-74d362629884/Untitled.png)
+
+Throughout the observation, I also took detailed notes to capture any noteworthy observations or specific moments that stood out. This data would later be analyzed and used to identify usability issues, areas of improvement, and potential design enhancements for the tested product or interface.
+
+### Post-Test Usability Results
+
+To conclude the overall test results and data collected, I administered a post-usability test questionnaire called SUS (System Usability Scale). This standardized scale provides valuable insights into the usability of the system and allows for a quantitative assessment of user satisfaction and perceived ease of use.
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5271d1ce-9b1f-4155-b312-5d46b165f7fc/Untitled.png)
+
+Based on research, a SUS score above a 68 would be considered above average and anything below 68 is below average, By analyzing the SUS scores and participant feedback, I gained a comprehensive understanding of the system's usability and identified areas for improvement. This information will be instrumental in shaping future design iterations and enhancing the overall user experience.
+
+### Recommendations and Iterations
+
+I’ve collected most of the data on recommendation, changes and justification from the participants about the current product interface and information accuracy rate. Most of the participants faced problems with :
+
+- I recognized the challenges users faced with the user interface's lack of responsiveness and layout issues.
+- Another issue users encountered was the lengthy process to navigate and join the waiting list.
+- The confusion surrounding the "Join Waiting List" call-to-action (CTA) on the restaurant's page after users joined the waiting list is another important issue.
+- users faced difficulties editing wrongly filled dietary preferences. To enhance the user experience in this aspect, I implemented an easy-to-use editing feature.
+
+Through iterations and testing, I refined the design, streamlined navigation, and implemented intuitive features to address the usability concerns. I focused on improving clarity, simplicity, and user-friendliness throughout the entire user journey.
+
+## Final Results
+
+---
+
+### Problem : Users encounter significant challenges in their search for restaurants that effectively accommodate their unique dietary restrictions and preferences. How we can steamline the overall restaurant discovery process and provide results based on their dietary restrictions?
+
+### Solution space
+
+To solve the problems user facing significant challenges in finding restaurant that effectively accomodates the unique dietary restrictions and preferences we incorporated these solutions.
+
+<img src="/gif1.gif" alt="Alt text" title="a title" width="300" height="300" />
