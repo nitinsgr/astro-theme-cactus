@@ -33,7 +33,7 @@ const url = new URL(Astro.request.url);
 				MENU_LINKS.map((link) => (
 					<a
 						href={link.path}
-						class={`px-4 ml-2 py-7  sm:py-0 text-[16px] font-interRegular sm:hover:underline ${url.pathname === link.path ? 'active-link bg-white text-black rounded-full p-10' : 'bg-gray-0'}`}
+						class={`px-4 ml-2  sm:py-3 text-[16px] font-lora font-semibold sm:hover:underline ${url.pathname === link.path ? 'active-link bg-white text-black rounded-full ' : 'bg-gray-0'}`}
 						aria-current={url.pathname === link.path ? "page" : false}
 						rel="prefetch"
 					>

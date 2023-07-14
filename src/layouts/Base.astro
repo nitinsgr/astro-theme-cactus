@@ -12,13 +12,20 @@ interface Props {
 }
 
 const {
-	meta: { title, description = siteConfig.description, ogImage, articleDate },
+	meta: { title, description = siteConfig.description, ogImage, articleDate, logo },
 } = Astro.props;
 ---
 
 <html lang={siteConfig.lang}>
 	<head>
-		<BaseHead title={title} description={description} ogImage={ogImage} articleDate={articleDate} />
+		<BaseHead title={title} description={description} ogImage={ogImage} articleDate={articleDate} logo={logo} />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,700&family=Roboto&display=swap" rel="stylesheet">
+
 	</head>
 	<body>
 		<ThemeProvider />

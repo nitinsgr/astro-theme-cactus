@@ -25,14 +25,23 @@
 
 	html {
 		@apply h-full scroll-smooth border-textColor;
+		
 	}
 
 	html body {
 		@apply mx-auto flex h-full max-w-4xl flex-col bg-bgColor px-8 pt-16 font-mono text-sm font-normal text-textColor antialiased;
+
+		
 	}
 
-	@font-face {font-family: "Suisse Intl"; src: url("//db.onlinewebfonts.com/t/eb270b13b84d5a43462737e3fb0a268d.eot");}
+	.h1{
+		font-size: 10px;
+	}
+
 	
+
+	@font-face {font-family: "Suisse Intl"; src: url("//db.onlinewebfonts.com/t/eb270b13b84d5a43462737e3fb0a268d.eot");}
+
 }
 
 @tailwind components;

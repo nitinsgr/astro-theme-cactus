@@ -28,6 +28,8 @@ export default {
 			},
 			fontFamily: {
 				// Add any custom fonts here
+				roboto: "'Roboto', san-serif",
+				lora: "'Lora', serif",
 				interRegular: ['"Inter-Regular"', "sans-serif"],
 				opensans: ['"Inter-Bold"', "sans-serif"],
 				sans: ["InterVariable", "Inter", ...fontFamily.sans],
@@ -112,7 +114,7 @@ export default {
 					},
 				},
 				".title": {
-					"@apply text-2xl font-semibold text-accent-2": {},
+					"@apply text-5xl font-semibold text-accent-2": {},
 				},
 			});
 		}),

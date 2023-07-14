@@ -25,13 +25,27 @@ function getTagColorClass(index) {
 <div class="flex flex-col">
 	
 	
-<section class="bg-white dark:bg-gray-900">
-    <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
-        <h1 class="mb-4 text-4xl font-bold font-opensans tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">{data.title	}</h1>
-        <p class="mb-0 text-lg font-normal text-gray-500 lg:text-xl pt-5 sm:px-16 lg:px-32 dark:text-gray-400">{data.description}</p>
-    </div>
+<section class="bg-white dark:bg-[#1d1f21]">
+	
+	<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+		{data.logo && (
+			<div class="aspect-h-16 max-w-5xl mb-6 flex items-center justify-center">
+				<Image
+					src={data.logo}
+					alt={data.description}
+					loading="eager"
+					width={600} // Add the width of your image here
+					// Add the height of your image here
+					fetchpriority="high"
+				/>
+			</div>
+		)}
+		<h1 class="mb-4 text-4xl font-bold font-lora leading-loose text-gray-900 md:text-5xl lg:text-5xl dark:text-white">{data.title}</h1>
+		<p class="mb-0 text-lg font-normal text-gray-500 lg:text-xl pt-5 sm:px-16 lg:px-32 dark:text-gray-400">{data.description}</p>
+	</div>
+	
 </section>
-
+<!-- 
 	{data.ogImage && (
 		<div class="aspect-h-16 max-w-5xl mb-6 prose">
 			<div class="">
@@ -46,9 +60,10 @@ function getTagColorClass(index) {
 			</div>	
 			
 		</div>
-	)}
+	)} -->
 	
-<ol class="items-center text-center sm:flex">
+	<hr/>
+<ol class="items-center text-center sm:flex mt-24 mb-20">
     <li class="relative mb-6 sm:mb-0">
         <div class="flex items-center">
         </div>

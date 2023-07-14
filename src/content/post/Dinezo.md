@@ -1,22 +1,22 @@
 ---
-title: "Dinezo- Improving Dining Experience"
+title: "Dinezo- Improving Your Personalized Dining Experience"
 publishDate: "12 June 2022"
 description: "Designing Extraordinary Dining Experiences through User-Centric Innovation"
 ogImage: "/dinezo.png"
+logo : "/logo.png"
 tags: ["example", "blog"]
 ---
 
-## Overview
+# Overview
 
 This case study is written totally for my personal understanding and I was not part of any project that involved enhancing the dining experience. However, as a UX designer, I believe that any experience can be improved with the right approach and design.  
 
 ---
 
-### Introduction
+### The Challenge
 
-<blockquote class="p-4 my-2">
-    <p class="text-[20px] font-opensans italic font-medium leading-relaxed text-gray-900 dark:text-white">The current restaurant reservation app for diners lacks usability and efficiency, resulting in a frustrating and inconvenient booking experience. Users encounter challenges in finding available reservations, navigating through a complex booking process, and receiving personalized recommendations. Communication with restaurants is inefficient, and the review system is inadequate for making informed dining choices.*</p>
-</blockquote>
+- Difficulty in finding available reservations: Users struggle to locate and secure reservations due to limited search options and lack of availability visibility.
+-
 
 ### Solutions
 
@@ -32,9 +32,12 @@ View solution screens {Link}
 I was a solo UX/UI Designer on this project, where I had the opportunity to take charge of all the tasks and workshops involved. As the sole designer, I was responsible for every aspect of the user experience and interface design, from conceptualization to final implementation.
 </p>
 
+<img src="/Role.png" alt="Alt text" title="a title" width="700" height="700" />
+
 ### Design Process
 
-<img src="/dsd.png" alt="Alt text" title="a title" width="700" height="700" />
+I followed the design process because I believe that it's effectiveness in creating user-centered and innovative solutions. The design thinking process allowed me to gain deep insight into the user's perspective fostering a human centered approach to problem solving. This approach encouraged collaboration and cross-functional teamwork, as I worked closely with other designers on the team, this ensured a holistic and well-rounded solution.
+<img src="/Design.png" alt="Alt text" title="a title" width="700" height="700" />
 
 ### Understanding the Challenge
 
