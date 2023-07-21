@@ -7,7 +7,7 @@ logo : "/logo.png"
 tags: ["example", "blog"]
 ---
 
-# Overview
+### Overview
 
 This case study is written totally for my personal understanding and I was not part of any project that involved enhancing the dining experience. However, as a UX designer, I believe that any experience can be improved with the right approach and design.  
 
@@ -73,7 +73,7 @@ The covid-19 pandemic has significantly impacted the restaurant industry, Leadin
 <p class="mb-3 text-gray-500 dark:text-gray-400">Assumptions are made based on understanding the problem, existing data, and research. They are prioritized and tested to validate their impact and uncertainties. Thorough research enables informed decision-making by either proving or disproving assumptions, leading to evidence-based solutions.
 </p>
 
-<img src="/assumption.svg" alt="Alt text" title="a title" width="900" height="700" />
+<img src="/assumption.svg" alt="Alt text" title="a title" width="1600" height="700" />
 
 <p class="mb-3 text-gray-500 dark:text-gray-400">
 To validate my assumptions, I categorized and identified the most challenging and risky ones. I transformed these assumptions into testable hypothesis statements to ensure they are validated through experiments and tools. The goal is to prove their validity and carry them forward in the next stages of the process.
@@ -241,7 +241,7 @@ Screen Sharing and Video Conferencing: Google Meet
 
 Test Setup and Environment: Quant-UX (Open-source tool to measure your product success)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc9a5f1b-57b6-4757-9f25-fec2a46a9628/Untitled.png)
+![Untitled](/test.png)
 
 ### Defining Usability Metrics
 
@@ -257,9 +257,9 @@ To measure the usability of the product the goal for users is to interact with p
 
 ### Quantitative Data Measurement
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/55478f61-fa37-4518-9be4-2fb116fa53b4/Untitled.png)
+![Untitled](/quant.png)
 
-- Task completion rates were analyzed to measure overall product effectiveness. Task 2 had a 62% completion rate, indicating room for improvement. Task 3 achieved 100% completion. Error rates were also considered, with Task 2 having a 70% error rate, while Task 4 performed the best with the lowest errors. Areas requiring improvement include Task 2 and Task 1, ensuring better user experience and increased effectiveness.
+- <u class="text-blue-500 font-bold">Task completion rates</u> were analyzed to measure overall product effectiveness. Task 2 had a <u class="text-red-500 font-bold">62%</u> completion rate, indicating room for improvement. Task 3 achieved <u class="text-green-500 font-bold">100%</u> completion. Error rates were also considered, with Task 2 having a 70% error rate, while Task 4 performed the best with the lowest errors. Areas requiring improvement include Task 2 and Task 1, ensuring better user experience and increased effectiveness.
 - The efficiency rate and time on task completion were measured to assess performance. Task 2 had the highest average time on task, taking 257 goal/sec. In contrast, Task 4 had the quickest completion time. However, when evaluating overall relative efficiency, Task 4 achieved a lower efficiency rate of 76%, while Task 1 had the highest efficiency rate of 100% for completing the task.
 - The satisfaction rate was assessed using a combination of qualitative and quantitative data. Participants were asked open-ended questions after completing each task, allowing them to provide subjective feedback. Additionally, participants were asked to complete a SEQ (Semantic Differential Scale) and rate the task on a Likert scale ranging from 1 to 7.
 
@@ -267,7 +267,7 @@ To measure the usability of the product the goal for users is to interact with p
 
 I recorded their behavior, interactions, and reactions during the testing session. This included noting any gestures, facial expressions, and verbal cues that provided insights into their thoughts and experiences. I paid close attention to their navigation patterns, the features they interacted with, and any difficulties or confusion they encountered.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5aecf1b1-b521-4b5e-b5db-74d362629884/Untitled.png)
+![Untitled](/qual.png)
 
 Throughout the observation, I also took detailed notes to capture any noteworthy observations or specific moments that stood out. This data would later be analyzed and used to identify usability issues, areas of improvement, and potential design enhancements for the tested product or interface.
 
@@ -275,7 +275,7 @@ Throughout the observation, I also took detailed notes to capture any noteworthy
 
 To conclude the overall test results and data collected, I administered a post-usability test questionnaire called SUS (System Usability Scale). This standardized scale provides valuable insights into the usability of the system and allows for a quantitative assessment of user satisfaction and perceived ease of use.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5271d1ce-9b1f-4155-b312-5d46b165f7fc/Untitled.png)
+![Untitled](/post-test.png)
 
 Based on research, a SUS score above a 68 would be considered above average and anything below 68 is below average, By analyzing the SUS scores and participant feedback, I gained a comprehensive understanding of the system's usability and identified areas for improvement. This information will be instrumental in shaping future design iterations and enhancing the overall user experience.
 
@@ -300,4 +300,107 @@ Through iterations and testing, I refined the design, streamlined navigation, an
 
 To solve the problems user facing significant challenges in finding restaurant that effectively accomodates the unique dietary restrictions and preferences we incorporated these solutions.
 
-<img src="/gif1.gif" alt="Alt text" title="a title" width="300" height="300" />
+<div class="grid grid-cols-2 gap-4 items-center flex">
+  <div>
+  <img src="/gif1.gif" alt="Alt text" title="a title" width="300" height="300" />
+  <p>Set your personalized Dietary Preference</p>
+  </div>
+  <!-- ... -->
+  <div>
+   <img src="/filter.gif" alt="Alt text" title="a title" width="300" height="300" />
+  <p>Ability to filter your search through advance filters</p>
+  </div>
+</div>
+
+### Problem 2: Extensive study findings have revealed a reoccurring issue that customers confront when seeking to get confirmed seats at restaurants, which frequently results in anomalous waiting periods or even automated booking cancellations, causing major dissatisfaction among users. To overcome this issue and prevent cart abandonment, effective user management tactics must be used
+
+### Solution
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 items-center">
+  <div class="text-center">
+    <img src="/Animation.gif" alt="Alt text" title="a title" width="500" height="400" />
+    <p>Set your personalized Dietary Preference</p>
+  </div>
+  <div class="text-center">
+    <img src="/prob2.gif" alt="Alt text" title="a title" class="mx-auto object-fit" width="400" height="300" />
+    <p>With Waitlist restaurant’s can still manage their diners even tho they’re full occupied and overcrowded.</p>
+  </div>
+  <div class="text-center">
+    <img src="/prob1.gif" alt="Alt text" title="a title" class="mx-auto object-fit" width="300" height="400" />
+    <p>Some restaurants struggle to effectively manage customers who prefer walk-in dining experiences. It is crucial for these establishments to provide suitable options for walk-in patrons and ensure their needs are met.</p>
+  </div>
+</div>
+
+### Problem 3: Currently, some of our customers encounter an unusually high number of people during their visit, which may not be conducive to their desired dining experience. How might we overcome from the issue of unusual overcrowding? How do we mitigate the problem
+
+Through our inclusive research, we discovered that the issue extends beyond overcrowding. Sometimes, restaurants experience low income as a result, making it challenging for them to effectively manage their diners. To address this problem, I have incorporated a few features that not only resolve overcrowding but also facilitate easier customer management for the restaurant.
+
+ <p class="underline text-xl text-blue-500">Converging users to choose different time slot when restaurant has lesser crow</p>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6 items-center">
+  <div class="text-center">
+    <img src="/prob3.gif" alt="Alt text" title="a title" width="500" height="400" />
+    <p>Set your personalized Dietary Preference</p>
+  </div>
+  <div class="text-center">
+    <img src="/prob32.gif" alt="Alt text" title="a title" class="mx-auto object-fit" width="400" height="300" />
+    <p>With Waitlist restaurant’s can still manage their diners even tho they’re full occupied and overcrowded.</p>
+  </div>
+  <div class="text-center">
+    <img src="/prob34.gif" alt="Alt text" title="a title" class="mx-auto object-fit" width="300" height="400" />
+    <p>Some restaurants struggle to effectively manage customers who prefer walk-in dining experiences. It is crucial for these establishments to provide suitable options for walk-in patrons and ensure their needs are met.</p>
+  </div>
+
+   <div class="text-center">
+    <img src="/prob33.gif" alt="Alt text" title="a title" class="mx-auto object-fit" width="300" height="400" />
+    <p>Some restaurants struggle to effectively manage customers who prefer walk-in dining experiences. It is crucial for these establishments to provide suitable options for walk-in patrons and ensure their needs are met.</p>
+  </div>
+</div>
+
+ <p class="underline text-xl text-blue-500">Allow user to check occupancy of a restaurant and current wait-time status to make the informed decision.</p>
+
+ <div class="text-center">
+    <img src="/prob35.gif" alt="Alt text" title="a title" class="mx-auto object-fit" width="300" height="400" />
+    <p class="text-center w-full">Some restaurants struggle to effectively manage customers who prefer walk-in dining experiences. It is crucial for these establishments to provide suitable options for walk-in patrons and ensure their needs are met.</p>
+  </div>
+
+### Problem 4 : Some users encountered that they wouldn’t receive information after they make reservation. They do not get live updates on their reservation
+
+![Check.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2614e37a-3d91-4a7e-aa64-6498a95062af/Check.gif)
+
+Real time updates on their estimated waiting time
+
+![Check.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6aaa2dc1-7368-434e-96e4-608af87fa339/Check.gif)
+
+Real-time update upon availability allow user to directly navigate to the reservation page reduce overall time.
+
+![Check.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ae8dca1e-521e-4068-b5ad-52c31c7a2e5e/Check.gif)
+
+Let Restaurant staff know that you’ve arrived at the restaurant who will guide you to your seat and take your order without wasting any time.
+
+## 10 Scope, What’s next?
+
+---
+
+This is just the beginning. Next, I'm considering enhancing the post-booking experience for our customers.
+
+With further research, my focus will be on enhancing the existing experience. By delving deeper into the subject matter, exploring user feedback, and staying up to date with emerging trends, I aim to bring significant improvements to the current experience.
+
+These insights serve as a foundation for improving the current experience and delivering a more user-centric product. By carefully examining their comments, suggestions, and complaints, I can prioritize the most crucial aspects to address next time maybe in phase 2.
+
+### What’s next?
+
+- Integrating improved payment methods such as In-built scanner
+- Drafting design solutions for improved furniture design to reduce on-site restaurant spacing problems.
+- Social sharing and community : Explore and integration of social sharing capabilities, enable users to share their reservation and dining experiences with the friend and family.
+- Gamification elements : Introduce gamification elements such as badges, reward points to incentivize user to engage more with the app, make reservation and explore new dining expeirences.
+- Enhancing post-booking experience of the customer.
+- Enahncing overcrowding management by incorporating pre-order reservation to reduce wait-time,
+
+## 11 Conclusion
+
+---
+
+As a UX designer, my journey in this case study began with the intention of addressing a specific problem that had caught my attention. However, as I started engaging with real users, I quickly realized that there were numerous additional challenges and pain points they faced in their daily lives. The scope of the problem expanded, and it became evident that a comprehensive understanding of user needs was crucial.
+
+In conclusion, this UX case study demonstrated the positive impact of user-centered design on the overall user experience. By addressing user pain points, refining the interface, and incorporating personalized features, I’ve successfully improved user satisfaction, engagement, and business metrics. With a commitment to ongoing research and iterative design, I will continue to deliver a compelling and delightful experience for our users.

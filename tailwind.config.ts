@@ -26,10 +26,14 @@ export default {
 				accent: "var(--theme-accent)",
 				"accent-2": "var(--theme-accent-2)",
 			},
+			maxWidth: {
+				half: "200%",
+			},
 			fontFamily: {
 				// Add any custom fonts here
 				roboto: "'Roboto', san-serif",
-				lora: "'Lora', serif",
+				lora: "'Lora', sans-serif",
+				Arimo: "'Arimo', serif",
 				interRegular: ['"Inter-Regular"', "sans-serif"],
 				opensans: ['"Inter-Bold"', "sans-serif"],
 				sans: ["InterVariable", "Inter", ...fontFamily.sans],
