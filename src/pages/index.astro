@@ -49,9 +49,9 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 ---
 
 <PageLayout meta={{ title: "Home" }}>
-	<section class="sm:flex sm:flex-col sm:items-center lg:flex-row lg:justify-between">
+	<section class="sm:flex sm:flex-col sm:items-center font-Aileron-Black font-semibold lg:flex-row lg:justify-between">
 		<div class="lg:w-1/2 lg:mr-10">
-		  <h1 class="text-2xl lg:text-3xl lg:leading-10 font-Arimo font-bold">Hi! Nitin here<br>
+		  <h1 class="text-2xl lg:text-3xl lg:leading-9 ">Hi! Nitin here<br>
 			specialize in UX and Visual
 			to help brands & products solve problems that matter.
 			Advocating responsible, sustainable, and human user-centric solutions.
@@ -59,13 +59,13 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 		  <!-- <SocialList /> -->
 		</div>
 		<div class="hidden lg:block sm:mt-5">
-		  <img class="mx-auto rounded-lg" width="300px" height="300px" src="/imagee.png"/>
+		  <img class="mx-auto rounded-lg" width="300px" height="300px" src="/image3.png"/>
 		</div>
 	  </section>
 	<section aria-label="Blog post list" class="mt-16">
-		<h2 class="title mb-4 text-2xl font-interRegular">Recent Work</h2>
+		<h2 class="title mb-4 text-3xl font-Aileron-Black text-blue-500 font-Bold">Recent Work</h2>
 		<hr>
-		<ul class="container mt-6 m-auto grid lg:grid-cols-2 gap-4 sm:grid-cols-1">
+		<ul class="container mt-6 m-auto grid lg:grid-cols-1 gap-4 sm:grid-cols-1">
 			{
 				allPostsByDate.map((p) => (
 					<li class="flex flex-col gap-x-2 sm:flex-row">
@@ -75,30 +75,5 @@ const cactusTech: Array<{ title: string; desc: string; href: string }> = [
 			}
 		</ul>
 	</section>
-	<div class="mt-32">
-		<h2 class="title mb-4 text-2xl font-Arimo">What you'll get</h2>	
-		<hr>
-		<div class="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-2 gap-4 mt-2 font-Arimo mt-8">
-			
-			<a class="block  max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-				<p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-			</a>
-			<a class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-				<p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-			</a>
-			<a class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-				<p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-			</a>
-			<a class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-				<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-				<p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-			</a>
-
-		  
-			
-		  </div>
-		  <div>
+	
 </PageLayout>

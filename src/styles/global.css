@@ -3,7 +3,7 @@
 @layer base {
 	:root {
 		color-scheme: light;
-		--theme-bg: #ffffff;
+		--theme-bg: #Ffffff;
 		--theme-link: #567c77;
 		--theme-text: #22272a;
 		--theme-accent: #1a1415;
@@ -29,15 +29,42 @@
 	}
 
 	html body {
-		@apply mx-auto flex h-full max-w-4xl flex-col bg-bgColor px-8 pt-16 font-mono text-sm font-normal text-textColor antialiased;
+		@apply mx-auto flex h-full max-w-3xl flex-col bg-bgColor px-8 pt-16 font-mono text-sm font-normal text-textColor antialiased;
 
 		
 	}
+
+	.card-zoom:hover .card-zoom-image {
+		@apply scale-150;
+	  }
+	  .card-zoom:hover .card-zoom-text {
+		@apply scale-100;
+	  }
 
 	.h1{
 		font-size: 10px;
 	}
 
+	@font-face {
+		font-family: 'Inter-Black'; /* Replace 'CustomFont' with your desired font name */
+		src: url('/astro-theme-cactus/public/fonts/Inter-Black.ttf') format('tff'),
+			 url('/astro-theme-cactus/public/fonts/Inter-Black.ttf') format('tff');
+		/* Add additional formats if needed */
+	  }
+
+	  @font-face {
+		font-family: 'Aileron-Black'; /* Replace 'CustomFont' with your desired font name */
+		src: url('/astro-theme-cactus/public/fonts/Aileron-Black.ttf') format('tff'),
+			 url('/astro-theme-cactus/public/fonts/Aileron-Black.ttf') format('tff');
+		/* Add additional formats if needed */
+	  }
+
+	  @font-face {
+		font-family: 'Aileron'; /* Replace 'CustomFont' with your desired font name */
+		src: url('/astro-theme-cactus/public/fonts/Aileron/') format('otf'),
+			 url('/astro-theme-cactus/public/fonts/Aileron/') format('otf');
+		/* Add additional formats if needed */
+	  }
 	
 
 	@font-face {font-family: "Suisse Intl"; src: url("//db.onlinewebfonts.com/t/eb270b13b84d5a43462737e3fb0a268d.eot");}

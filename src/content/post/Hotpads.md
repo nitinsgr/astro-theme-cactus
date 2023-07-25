@@ -6,86 +6,123 @@ ogImage: "/hotpads.png"
 tags: ["example", "blog"]
 ---
 
-### Disclaimer
+## Disclaimer
 
 This case study has been conducted in collaboration; however, it is important to note that we are not directly affiliated with Hotpads. The information and findings presented in this study are based on independent research and analysis, and any references to Hotpads are for illustrative purposes only. The views and opinions expressed in this document are solely those of the authors and do not necessarily reflect the views of Hotpads or its affiliated entities.
 
-### Introduction
+## Introduction
 
-As a student of a faciliation online class, I was practicing to become confident at running workshops solely for small projects, in person or remotely for organizations.
+During an online facilitation class, I honed my workshop-running skills to confidently handle small projects for organizations, whether in person or remotely.
+In a training session, we practiced facilitating workshops alongside designers, developers, and diverse teams. Our aim was to streamline organizational processes and automation to ensure sustainable practices in the long term.
 
-We had a training session where we trained to facilitate workshops with other designers, developers and different team and learn to have the orangization automatized as much as possible in order for it to be sustainable activity for us in the long run.
+### My role
+As a UX Designer, I actively participated and made equal contributions throughout the design sprint activities.
 
-As a UX Designer, I was involved and contributed equally in all the activities in the design sprint.
+With no budget for this project, we relied entirely on the skills and knowledge we had acquired in our careers.
 
-For this project we had no budget we were fully dependent on our skills and teachings we had learned so far in our carriers.
-
-We had some initial goals in mind:
+Throughout the process, we had some specific initial goals in mind:
 
 <div class="ml-10 mt-20 ">
-<h1 class="text-[28px] font-inter font-light pt-2 pb-2  text-gray-500 dark:text-white">1) Create chatbot that provides a seamless and user-friendly experience</h1>
-<h1 class="text-[28px] font-inter font-normal pt-2 pb-2 text-gray-500 dark:text-white">2) Develop NLP capabilities to accurately understand and interpret user queries, considering the context of the conversationt to provide relevant responses.</h1>
+<h3 class="text-[20px] pt-2 pb-2  text-gray-500 dark:text-white">1) Create chatbot that provides a seamless and user-friendly experience</h3>
+<h2 class="text-[20px] pt-2 pb-2 text-gray-500 dark:text-white">2) Develop NLP capabilities to accurately understand and interpret user queries, considering the context of the conversationt to provide relevant responses.</h2>
 
-<h1 class="text-[28px] font-inter font-normal text-gray-500 dark:text-white">3) Ensure the chatbot can handle multiple languages and dialects to cater to a diverse user base.</h1>
+<h2 class="text-[20px] text-gray-500 dark:text-white">3) Ensure the chatbot can handle multiple languages and dialects to cater to a diverse user base.</h2>
 </div>
 
-<pre class="bg-white"></pre>
+<pre class="bg-[#ffff]"></pre>
 
-## The Process
-
-We used the design sprint, a problem solving linear process where we work together to got a team alignment, design and prototype solutions rapidly to test it out and iterate.
-
-<img src="/process.svg" alt="Alt text" title="a title" width="600" height="600" class="items-center center flex" />
-
-For the next 5 days we are destined to use this design sprint framework where we carry out activities in a linear manner to achieve our goal.
 
 ## Sprint Planning and Briefing
 
-We meticulously planned our sprint for the next five days, ensuring a structured and efficient approach to accomplishing our goals. Due to we had no budget and our project was not categorized as a large project we chose to use softwares and tools which were easily accessbile and easy to use by all the participants in the sprint.
+Sprint briefing session was an exciting and crucial step in our journey, We were presented with the project's objective, which focused on enhancing the user experience, providing personalized support and streamlining interactions for hotpads users.
 
-- Describing Agenda for next 5 days
-- Facilitator and Project Manager discussion
-- Task Assignment and Role disbursement
+During the sprint planning we made several documents stating our initial challenges, objectives and agenda planning for the next 5 days.
 
-<img src="/Agenda.png" alt="Alt text" title="a title" width="1200" height="400" class="shadow-md" />
+<div class="flex items-center justify-center">
+  <img
+    src="/sprint-cycle.jpg"
+    alt="Alt text"
+    title="a title"
+    class="max-w-full md:scale-100 sm:scale-100"
+  />
+</div>
 
-Sprint briefing session was an exciting and crucial step in our journey, We were presented with the project's objective, which focused on enhancing the user experience, providing personalized support and streamlining interactions for hotpads users. It was inspiring to see how our work would directly impact user's interactions with the platform.
-
-Our cross functional team, consisting of UX designer like myself, Domain experts with a deep understanding of the real-estate market came together to brainstorm and collaborate. We discussed the insights gathered from the user research, gainig valuable context about pain-points and user's need related to chatbot interactions.
-
-<img src="/planning2.png" alt="Alt text" title="a title" width="1200" height="400" class="shadow-md" />
 
 Due to we had no budget and our project was not categorized as a large project we chose to softwares and tools which were easily accessbile and easy to use by all the participants in the sprint.
 
-### Tech Setup
-
-For most of the time, We used Mira for managing our workspace for sharing documents, performing activities etc. Google meet for our day to day meeting sessions and for note taking. I personally suggested my team to use obsidian for UX Writing and Documentation because I really liked the privacy concern about your document obsidian matters. Although few participant in the sprint had a few setbacks while using obsidian.
-
-### Roles
-
-Since we were all student we decided to vote ourselves on the basis of the experience, Urvarshi had a prior experience running a design sprint before took charge of our design sprint. We had our facilitator. I was responsbile for being a decider in the design sprint.
 
 ## Pre-Sprint Research
 
-We embarked on an initial research phase to gain a deeper understanding of the problem at hand and to better support the participants in the design sprint. Recognizing the importance of a well-informed and data-driven approach, we conducted thorough research to gather relevant information, insights, and perspectives.
+Day before sprint team had a pre-sprint discussion where we discussed research that has been done so far with the topic. Through research we gained the deeper understanding on the topic.
 
-- Existing literatures
-- Surveys conducted
-- Relevant information available on internet
+<i>Source Link</i>
+<img src="/presprint1.png" class=" scale-105" alt="Alt text" title="a title" width="1200" height="400" />
 
-<img src="/research.png" alt="Alt text" title="a title" width="1200" height="400" class="shadow-md" />
+<div class="grid grid-cols-2 gap-6 sm:grid-cols-2">
+   <img src="/pdf1.png" alt="Alt text" title="a title" width="1200" height="400" />
+<img src="/pdf2.jpeg" class=" scale-105" alt="Alt text" title="a title" width="1200" height="400" />
 
-Later, whilst meeting facilitator asked each participants about their experience, learnings and what did they learned from the initial research. Main objective here was to keep everyone on the same page as others.
+</div>
 
-By the end of the day, we planned our design sprint for the next 5 days.
 
-<pre class="bg-white"></pre>
+<div class="grid grid-cols-2 gap-6 sm:grid-cols-1">
+   <img src="/what2.png" alt="Alt text" title="a title" width="1200" height="400" />
+<img src="/question.png" class=" scale-105" alt="Alt text" title="a title" width="1200" height="400" />
 
-<h2 class="font-Armio text-2xl">Day1 - Map & Sketch</h2>
-<pre class="bg-white"></pre>
+</div>
 
-### Lightning Talk
+We ended our kickoff day session with a sense of accomplishment, having gathered relevant information, valuable insights, and a profound understanding of the topic itself. Each participant was entitled to contribute their unique perspectives, expertise, and enthusiasm, making the session truly collaborative and enriching.
+
+<pre class="bg-[white]"></pre>
+
+<h2 class="font-Armio text-2xl">Day 1: Understand the Problem</h2>
+<pre class="bg-[white]"></pre>
+
+### Team Discussion
 
 Around 9 in the morning, the next day, we kicked off our first day of the design sprint with an engaging lightning talk centered around the topic we had carefully planned during the design sprint planning phase. The purpose of the lightning talk was to provide the team with valuable insights, inspiration, and a shared understanding of the topic at hand.
 
-### Expert Interview & HMW
+
+
+### Subject Matter Interview & HMW Questions
+
+Before our sprint session, to have a better understanding about their online behavior and interaction pattern.The UX team conducted interviews with subject matter expert and users who have decent knowledge about the subject.
+
+All team members watched the recorded expert interview and shared research dcoument about the user's current behavior and how do they interact with the application on their daily basis. Based on the research data we wrote our "How might We" questions on Invision Freehand whiteboard.
+
+<img src="/hmw4.png" alt="Alt text" title="a title" width="1200" height="400" class=" hover:scale-150 transition-all"/>
+
+### Vote
+After completing the process of drafting the How Might We (HMW) statements, we immediately proceeded to a voting session, which lasted for 10 minutes. During this engaging session, our team aimed to identify and eliminate any repetitive HMW statements while prioritizing the most impactful ones for our project.
+<img src="/hmw5.png" alt="Alt text" title="a title" width="1200" height="400" class=" hover:scale-150 transition-all"/>
+
+
+<h3 class="font-bold text-xl">Top 3 How might we's</h3>
+
+- #### How might we personalize the chatbot's recommendation based on the each user's unique preferences and requirements, aligning with the personalization and engagement focus are. This will enhance user satifaction and increase the likelihood of finding suitable properties.(Alignment with goals and objective)
+
+- #### How might design a chatbot that has a improved searching criteria to offer user more refined and accurate property options based on the specific requiremnts and preferences.(Impact and Importance)
+
+- #### How might we integrate the chatbot seamlessly with the hotpads app. Allowing user to switch between browsing and chatting effortlessly, addressing the convenience and efficiency focus area. (User Centric perspective)
+
+<pre class="bg-white"></pre>
+
+### Long term goals and Sprint Questions
+
+For the sprint long term goals, we had a conversation about: "why are we doing this project", where do we want to be two years from now? then on the digital cards we shared statements started with "In two years time"... phrases to capture the long term vision of our solution.
+
+In the next step, we ideated about what could stop us from getting to the long term goal and what should we need overcome to meet our long term goal. Our statement begin with the "Can we" phrase.
+
+<img src="/sprint1.png" alt="Alt text" title="a title" width="1200" height="400"/>
+
+
+## Map 
+
+With all the insights and findings on a single place this helped us creating a user map. User journey map shows us the path user would take to complete a process and reaching their goal.
+
+We placed our findings and insights on the map to help us guide through and achieve a target focus where we should be working on during the project.
+
+<pre class="bg-[white]"></pre>
+
+<h2 class="font-Armio text-2xl">Day2 - Define</h2>
+<pre class="bg-[white]"></pre>

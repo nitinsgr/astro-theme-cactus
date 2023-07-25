@@ -1,126 +1,100 @@
-import type { Config } from "tailwindcss";
 import { fontFamily } from "tailwindcss/defaultTheme";
 import plugin from "tailwindcss/plugin";
 
 export default {
-	content: ["./src/**/*.{astro,html,js,jsx,md,svelte,ts,tsx,vue}"],
-	darkMode: "class",
-	corePlugins: {
-		// disable aspect ratio as per docs -> @tailwindcss/aspect-ratio
-		aspectRatio: false,
-		// disable some core plugins as they are included in the css, even when unused
-		touchAction: false,
-		ringOffsetWidth: false,
-		ringOffsetColor: false,
-		scrollSnapType: false,
-		borderOpacity: false,
-		textOpacity: false,
-		fontVariantNumeric: false,
-	},
-	theme: {
-		extend: {
-			colors: {
-				bgColor: "var(--theme-bg)",
-				textColor: "var(--theme-text)",
-				link: "var(--theme-link)",
-				accent: "var(--theme-accent)",
-				"accent-2": "var(--theme-accent-2)",
+  content: ["./src/**/*.{astro,html,js,jsx,md,svelte,ts,tsx,vue}"],
+  darkMode: "class",
+  corePlugins: {
+    // ... (existing core plugins)
+  },
+  theme: {
+	extend: {
+		scale: {
+			'100': '1', // You can adjust the scale value as needed
+		  },
+	  colors: {
+		bgColor: "var(--theme-bg)",
+		textColor: "var(--theme-text)",
+		link: "var(--theme-link)",
+		accent: "var(--theme-accent)",
+		"accent-2": "var(--theme-accent-2)",
+		// Add more custom colors if needed
+	  },
+	  maxWidth: {
+		half: "200%",
+	  },
+	  fontFamily: {
+		// ... (existing fonts)
+		'Aileron-Black': ['Aileron-Black', 'sans-serif'],
+		'Aileron-Bold': ['Aileron-Bold', 'sans-serif'],
+	  },
+	  fontSize: {
+        // Define your font sizes here
+        'xs': '0.75rem',   // Extra Small (12px)
+        'sm': '0.875rem',  // Small (14px)
+        'base': '1rem',    // Base (16px)
+        'lg': '1.125rem',  // Large (18px)
+        'xl': '1.25rem',   // Extra Large (20px)
+        '2xl': '1.5rem',   // 2X Large (24px)
+        '3xl': '1.875rem', // 3X Large (30px)
+        '4xl': '2.25rem',  // 4X Large (36px)
+        '5xl': '3rem',     // 5X Large (48px)
+        '6xl': '4rem',     // 6X Large (64px)
+      },
+	  transitionProperty: {
+		height: "height",
+	  },
+	  typography: (theme) => ({
+		cactus: {
+		  css: {
+			"--tw-prose-body": "var(--theme-text)",
+			"--tw-prose-headings": "var(--theme-text)",
+			"--tw-prose-links": "var(--theme-text)",
+			"--tw-prose-bullets": "var(--theme-text)",
+			"--tw-prose-quotes": "var(--theme-quote)",
+			"--tw-prose-code": "var(--theme-text)",
+			"--tw-prose-hr": "0.5px dashed #666",
+			"--tw-prose-th-borders": "#666",
+			h2: {
+			  fontSize: theme("fontSize.3xl"),
+			  // Add any other styles specific to h1 here
 			},
-			maxWidth: {
-				half: "200%",
+			"h1, h2, h3, h4, h5, h6": {
+				fontFamily: "Public sans, sans-serif",
 			},
-			fontFamily: {
-				// Add any custom fonts here
-				roboto: "'Roboto', san-serif",
-				lora: "'Lora', sans-serif",
-				Arimo: "'Arimo', serif",
-				interRegular: ['"Inter-Regular"', "sans-serif"],
-				opensans: ['"Inter-Bold"', "sans-serif"],
-				sans: ["InterVariable", "Inter", ...fontFamily.sans],
-				serif: [...fontFamily.serif],
+			"p, span, a": {
+			  fontFamily: "Public sans, sans-serif",
+			  fontSize: theme("fontSize.lg")
+			  // Add any other text-specific styles here
 			},
-			transitionProperty: {
-				height: "height",
-			},
-			// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-			// @ts-ignore
-			// Remove above once tailwindcss exposes theme type
-			typography: (theme) => ({
-				cactus: {
-					css: {
-						"--tw-prose-body": "var(--theme-text)",
-						"--tw-prose-headings": "var(--theme-accent-2)",
-						"--tw-prose-links": "var(--theme-text)",
-						"--tw-prose-bold": "var(--theme-text)",
-						"--tw-prose-bullets": "var(--theme-text)",
-						"--tw-prose-quotes": "var(--theme-quote)",
-						"--tw-prose-code": "var(--theme-text)",
-						"--tw-prose-hr": "0.5px dashed #666",
-						"--tw-prose-th-borders": "#666",
-					},
-				},
-				DEFAULT: {
-					css: {
-						a: {
-							"@apply cactus-link no-underline": "",
-						},
-						strong: {
-							fontWeight: "700",
-						},
-						code: {
-							border: "1px dotted #666",
-							borderRadius: "2px",
-						},
-						blockquote: {
-							borderLeftWidth: "none",
-						},
-						hr: {
-							borderTopStyle: "dashed",
-						},
-						thead: {
-							borderBottomWidth: "none",
-						},
-						"thead th": {
-							fontWeight: "700",
-							borderBottom: "1px dashed #666",
-						},
-						"tbody tr": {
-							borderBottomWidth: "none",
-						},
-						tfoot: {
-							borderTop: "1px dashed #666",
-						},
-					},
-				},
-				sm: {
-					css: {
-						code: {
-							fontSize: theme("fontSize.sm")[0],
-							fontWeight: "400",
-						},
-					},
-				},
-			}),
+			"li": {
+				fontFamily: "Roboto, sans-serif",
+				fontSize: theme("fontSize.lg")
+				// Add any other text-specific styles here
+			  },
+		  },
 		},
+	  }),
+	  backgroundColor: (theme) => ({
+		...theme("colors"),
+		// Add background colors for dark mode
+		dark: theme("colors.gray.800"),
+	  }),
+	  textColor: (theme) => ({
+		...theme("colors"),
+		// Add text colors for dark mode
+		dark: theme("colors.white"),
+	  }),
 	},
-	plugins: [
-		require("@tailwindcss/typography"),
-		require("@tailwindcss/aspect-ratio"),
-		plugin(function ({ addComponents }) {
-			addComponents({
-				".cactus-link": {
-					"@apply bg-[size:100%_6px] bg-bottom bg-repeat-x": {},
-					backgroundImage:
-						"linear-gradient(transparent,transparent 5px,var(--theme-text) 5px,var(--theme-text))",
-					"&:hover": {
-						backgroundImage:
-							"linear-gradient(transparent,transparent 4px,var(--theme-link) 4px,var(--theme-link))",
-					},
-				},
-				".title": {
-					"@apply text-5xl font-semibold text-accent-2": {},
-				},
-			});
-		}),
-	],
-} satisfies Config;
+  },
+  
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/aspect-ratio"),
+    plugin(function ({ addComponents }) {
+      addComponents({
+        // ... (existing components)
+      });
+    }),
+  ],
+};
