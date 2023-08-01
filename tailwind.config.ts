@@ -27,6 +27,7 @@ export default {
 		// ... (existing fonts)
 		'Aileron-Black': ['Aileron-Black', 'sans-serif'],
 		'Aileron-Bold': ['Aileron-Bold', 'sans-serif'],
+		'SourceSerifPro-Black': ['SourceSerifPro-Black','serif'],
 	  },
 	  fontSize: {
         // Define your font sizes here
@@ -63,8 +64,9 @@ export default {
 				fontFamily: "Public sans, sans-serif",
 			},
 			"p, span, a": {
-			  fontFamily: "Public sans, sans-serif",
-			  fontSize: theme("fontSize.lg")
+			  fontFamily: "SourceSerifPro-Regular, Serif",
+			  lineHeight: "1.6",
+			  fontSize: theme("fontSize.[xl]")
 			  // Add any other text-specific styles here
 			},
 			"li": {

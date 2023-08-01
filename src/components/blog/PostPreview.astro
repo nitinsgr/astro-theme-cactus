@@ -21,11 +21,11 @@ const postDate = getFormattedDate(date);
 		</div>
 	  )}  -->
 	<Element>
-		<a href={`/posts/${post.slug}/`} class=" text-xl underline font-Aileron-Black " rel="prefetch">
+		<a href={`/posts/${post.slug}/`} class=" text-xl underline font-SourceSerifPro-Black " rel="prefetch">
 			{post.data.title}
 		</a>
 	</Element>
-	{withDesc && <q class="line-clamp-3 block italic font-sans">{post.data.description}</q>}
+	{withDesc && <q class="line-clamp-3 block italic">{post.data.description}</q>}
 
 </div>
 

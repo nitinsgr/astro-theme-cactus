@@ -27,21 +27,35 @@ function getTagColorClass(index) {
 	
 <section class="bg-white dark:bg-[#1d1f21]">
 	
-	<div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
-		{data.logo && (
-			<div class="aspect-h-16 max-w-5xl mb-6 flex items-left">
-				<Image
-					src={data.logo}
-					alt={data.description}
-					loading="eager"
-					width={600} // Add the width of your image here
-					// Add the height of your image here
-					fetchpriority="high"
-				/>
-			</div>
-		)}
-		<h1 class="mb-2 text-4xl text-2xl text-gray-900 md:text-5xl leading-tight lg:text-5xl font-Aileron-Black font-bold dark:text-white">{data.title}</h1>
-	</div>
+	<div class="py-8 mx-auto max-w-screen-xl lg:py-0">
+		<!-- {data.logo && (
+		  <div class="aspect-h-16 max-w-5xl mb-6 flex items-left">
+			<Image
+			  src={data.logo}
+			  alt={data.description}
+			  loading="eager"
+			  width={600} // Add the width of your image here
+			  // Add the height of your image here
+			  fetchpriority="high"
+			/>
+		  </div>
+		)} -->
+		<h2 class="mb-2 text-xl text-gray-900 md:text-2xl leading-tight lg:text-4xl font-Aileron-Black font-bold dark:text-white">{data.title}</h2>
+	  
+		<!-- Publisher Detail -->
+		<div class="flex font-Aileron-Black pt-4 items-center mt-2">
+		  <div class="w-12 h-12 rounded-full overflow-hidden mr-4">
+			<img src="/imagee.png" alt="Publisher Avatar" loading="lazy" />
+		  </div>
+		  <div>
+			<p class="text-sm text-gray-600">Published on {data.publishDate}</p>
+			<p class="text-sm text-gray-600 flex items-center">
+			  <span>Published by {data.publisher}</span>
+			</p>
+		  </div>
+		</div>
+	  </div>
+	  
 	
 </section>
 <!-- 

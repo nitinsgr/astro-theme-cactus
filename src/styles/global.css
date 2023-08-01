@@ -46,6 +46,20 @@
 	}
 
 	@font-face {
+		font-family: 'SourceSerifPro-Regular'; /* Replace 'CustomFont' with your desired font name */
+		src: url('/astro-theme-cactus/public/fonts/SourceSerifPro-Regular.otf') format('OTF'),
+			 url('/astro-theme-cactus/public/fonts/SourceSerifPro-Regular.otf') format('OTF');
+		/* Add additional formats if needed */
+	  }
+
+	  @font-face {
+		font-family: 'SourceSerifPro-Black'; /* Replace 'CustomFont' with your desired font name */
+		src: url('/astro-theme-cactus/public/fonts/SourceSerifPro-Black.otf') format('otf'),
+			 url('/astro-theme-cactus/public/fonts/SourceSerifPro-Black.otf') format('otf');
+		/* Add additional formats if needed */
+	  }
+
+	@font-face {
 		font-family: 'Inter-Black'; /* Replace 'CustomFont' with your desired font name */
 		src: url('/astro-theme-cactus/public/fonts/Inter-Black.ttf') format('tff'),
 			 url('/astro-theme-cactus/public/fonts/Inter-Black.ttf') format('tff');
