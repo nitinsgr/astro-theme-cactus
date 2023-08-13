@@ -27,6 +27,7 @@ export default {
 		// ... (existing fonts)
 		'Aileron-Black': ['Aileron-Black', 'sans-serif'],
 		'Aileron-Bold': ['Aileron-Bold', 'sans-serif'],
+		'Raleway': ['Raleway', 'sans-serif'],
 		'SourceSerifPro-Black': ['SourceSerifPro-Black','serif'],
 	  },
 	  fontSize: {
@@ -42,6 +43,9 @@ export default {
         '5xl': '3rem',     // 5X Large (48px)
         '6xl': '4rem',     // 6X Large (64px)
       },
+	  lineHeight :{
+		'xs':'1rem'
+	  },
 	  transitionProperty: {
 		height: "height",
 	  },
@@ -57,21 +61,37 @@ export default {
 			"--tw-prose-hr": "0.5px dashed #666",
 			"--tw-prose-th-borders": "#666",
 			h2: {
-			  fontSize: theme("fontSize.3xl"),
+			  fontSize: theme("fontSize.2xl"),
+			  fontFamily: "Raleway, sans-serif",
+
 			  // Add any other styles specific to h1 here
 			},
+			h3: {
+				fontSize: theme("fontSize.xl"),
+				fontFamily: "Raleway, sans-serif",
+
+				// Add any other styles specific to h1 here
+			  },
 			"h1, h2, h3, h4, h5, h6": {
-				fontFamily: "Public sans, sans-serif",
+			fontFamily: "Raleway, sans-serif",
+
 			},
-			"p, span, a": {
+			"p, span, a, B": {
 			  fontFamily: "SourceSerifPro-Regular, Serif",
-			  lineHeight: "1.6",
+			  lineHeight: "1.4",
 			  fontSize: theme("fontSize.[xl]")
 			  // Add any other text-specific styles here
 			},
 			"li": {
-				fontFamily: "Roboto, sans-serif",
-				fontSize: theme("fontSize.lg")
+				fontFamily: "SourceSerifPro-Regular, Serif",
+				fontSize: theme("fontSize.xl"),
+				lineHeight: "1.4",
+				// Add any other text-specific styles here
+			  },
+			  "b": {
+				fontFamily: "SourceSerifPro-Regular, Serif",
+				fontSize: theme("fontSize.xl"),
+				lineHeight: "1.4",
 				// Add any other text-specific styles here
 			  },
 		  },

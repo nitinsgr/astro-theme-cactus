@@ -1,123 +1,145 @@
 ---
-title: "Remote Design Sprint:Conversational Chatbot Integration for Hotpads"
+title: "Solo Design Sprint:Conversational Chatbot Design for Hotpads"
 publishDate: "12 June 2022"
 description: "Another example post for Astro Cactus, this time written in a plain markdown file"
 ogImage: "/hotpads.png"
 tags: ["example", "blog"]
 ---
 
-## Disclaimer 
+## Disclaimer
 
-This case study has been conducted in collaboration and for learning purpose; however, it is important to note that we are not directly affiliated with Hotpads. The information and findings presented in this study are based on <u class="italic">independent research and analysis</u>, and any references to Hotpads are for illustrative purposes only. The views and opinions expressed in this document are solely those of the authors and do not necessarily reflect the views of Hotpads or its affiliated entities.
+This case study has been Solely; however, it is important to note that I'm not directly affiliated with Hotpads.
 
   <img
-    src="/hotpads.png"
+    src="/Personal/hotpads.png"
     alt="Alt text"
     title="a title"
     class="max-w-full md:scale-100 sm:scale-100"
   />
 
-### Introduction
+## Introduction
 
-In the fast-paced world of design and development, honing workshop-running skills is a crucial aspect of ensuring successful project outcomes for organizations, whether conducted in-person or remotely. As a passionate UX Designer, I recently had the opportunity to participate in an online facilitation class that significantly bolstered my ability to handle small projects effectively.
+In the fast-paced world of design and development, honing workshop-running skills is a crucial aspect of ensuring successful project outcomes for organizations, whether conducted in-person or remotely. As a passionate UX Designer, I worked collaboratively with teams before but I always had that curiosity can we run a design sprint solo. So I decided to venture alone challenging my skills, adaptation capabilities and explore the areas of improvement as a ux designer.
 
-The core objective of the training session was to streamline organizational processes and embrace automation, aiming to establish sustainable practices in the long run. Working in collaboration with fellow designers, developers, and diverse teams, we embarked on an exciting journey to explore innovative solutions.
+## Challenge
 
-## Role
+I challenged myself to design a user-friendly chatbot for the Hotpads real estate app. As the sole UX designer in this sprint, my mission is to create a chatbot that guides users in finding their ideal homes, offering friendly recommendations and helpful information. My focus is on making the chatbot's interaction easy and intuitive, ensuring that users have a smooth and enjoyable experience while exploring real estate options.
 
-Throughout the design sprint activities, I actively engaged as a UX Designer and made equal contributions to the team's progress. My background in user experience allowed me to bring a unique perspective to the table, ensuring that the workshops were not only efficient but also user-centered.
+## Constraints
 
-The absence of a budget for this particular project encouraged us to tap into the vast reservoir of skills and knowledge we had acquired over the course of our careers. Resourcefulness became our greatest asset, pushing us to think creatively and adapt to the challenges that arose.
+- The solution should be designed as a mobile application
+- All design decisions must be driven by users need and preferences ensuring that the final solution addresses real pain-points.
 
-<div class="ml-10 mt-20 ">
-<h3 class="text-[20px] pt-2 pb-2 font-SourceSerifPro-Black  text-gray-500 dark:text-white italic">1) Create chatbot that provides a seamless and user-friendly experience</h3>
-<h2 class="text-[20px] pt-2 pb-2 font-SourceSerifPro-Black text-gray-500 dark:text-white italic">2) Develop NLP capabilities to accurately understand and interpret user queries, considering the context of the conversationt to provide relevant responses.</h2>
-
-<h2 class="text-[20px] text-gray-500 font-SourceSerifPro-Black dark:text-white italic">3) Ensure the chatbot can handle multiple languages and dialects to cater to a diverse user base.</h2>
-</div>
-
-We have been presented with a challenging problem: to create an intelligent conversational chatbot for a real-estate application that elevates user engagement, enhances customer support, and streamlines the property search process.
-
- Our ultimate goal is to significantly improve user satisfaction, increase customer retention, and establish the real-estate application as a frontrunner in the industry.
-
-<pre class="bg-[#ffff]"></pre>
+## Framing the problem 
 
 
-### Pre-sprint Planning
+The goal is to align everyone around the same understanding of the challenge and get all perspectives.
 
-Sprint briefing session was an exciting and crucial step in our journey, We were presented with the project's objective, which focused on enhancing the user experience, providing personalized support and streamlining interactions for hotpads users.
+<img src="/Hotpads/Challenges.jpg" alt="Alt text" title="Challenges" width="1200" height="400" class=" hover:scale-150 transition-all"/>
 
-During the sprint planning we made several documents stating our initial challenges, objectives and agenda planning for the next 5 days.
+Understand and contextualize the problem by answering the four questions:
 
-<div class="flex items-center justify-center">
-  <img
-    src="/Planning3.jpg"
-    alt="Alt text"
-    title="a title"
-    class="max-w-full md:scale-100 sm:scale-100"
-  />
-</div>
+I grappled with uncertainty regarding the target audience and the specific pain points that warranted my attention. To navigate this challenge, I initiated a problem framing activity known as the 5W's exercise. 
 
+These questions particularly helped me drafting my problem statement.
 
-Due to we had no budget and our project was not categorized as a large project we chose to softwares and tools which were easily accessbile and easy to use by all the participants in the sprint.
+<blockquote class="text-xl italic font-SourceSerifPro-Black font-semibold text-gray-800 dark:text-white">
+    <p>"The current app experience lacks real-time insights, seamless interaction, and personalized guidance, hindering user satisfaction and efficiency. A transformative solution is needed to introduce an advanced chatbot interface that empowers users with instant information, tailored recommendations, and effortless communication, revolutionizing the real estate journey and enhancing user engagement and success."</p>
+</blockquote>
+
+ <pre class="bg-[#F9F9F9]"></pre>
 
 
-### Pre-Sprint Research
+ ### Pre-Research
 
-Day before sprint team had a pre-sprint discussion where we discussed research that has been done so far with the topic. Through research we gained the deeper understanding on the topic.
+https://www.engati.com/blog/overcoming-chatbot-
 
-<img src="/researchnew1.png" class=" scale-80" alt="Alt text" title="a title" width="1200" height="200" />
+<img src="/Hotpads/research8.jpg" class=" scale-80" alt="Alt text" title="a title" width="1200" height="200" />
+
+Afterward, I invested several hours in conducting research. I delved into articles and gathered insights about the implementation of chatbots and the challenges associated with it.
 
 
-
-We ended our kickoff day session with a sense of accomplishment, having gathered relevant information, valuable insights, and a profound understanding of the topic itself. Each participant was entitled to contribute their unique perspectives, expertise, and enthusiasm, making the session truly collaborative and enriching.
-
-<pre class="bg-[white]"></pre>
+<pre class="bg-[#F9F9F9]"></pre>
 
 <h2 class="font-Armio text-2xl">Day 1: Understand the Problem</h2>
-<pre class="bg-[white]"></pre>
 
-We had many activities in this session, we held a meeting where we dicsussed more about the problem and framing the actual problem.
+On the first day, I went through a couple of activities to successfully attain and gain a deeper understanding of the user's needs, frustrations, and pain-points. I spent the entire day trying to comprehend the users.
 
+### Interviews and Preparing How might we's
 
-### Subject Matter Interview & HMW Questions
+I conducted an informative interview session to understand users better. I talked with two users, and we discussed ideas and shared thoughts. They answered a few questions I had prepared to identify missing information and find ways to bridge the gaps.
 
-Before our sprint session, to have a better understanding about their online behavior and interaction pattern.The UX team conducted interviews with subject matter expert and users who have decent knowledge about the subject.During the interview session, we delved into the topic of chatbot integration and explored the potential challenges that may arise during the process.
+After completing the interview session, I dedicated time to formulate "How Might We" statements that can guide our focus. These statements are designed to help us identify potential solutions and areas of improvement based on the insights gained from the interviews.
 
-All team members watched the recorded expert interview and shared research dcoument about the user's current behavior and how do they interact with the application on their daily basis. Based on the research data we wrote our "How might We" questions on Invision Freehand whiteboard.
+<img src="/Hotpads/hmwboard1.jpg" alt="Alt text" title="a title" width="1200" height="400" class=" hover:scale-150 transition-all"/>
+<p class="italic text-gray-400 flex items-center text-center justify-center">activity : How might we's preparation</p>
 
-
-<img src="/hmw9.jpg" alt="Alt text" title="a title" width="1200" height="400" class=" hover:scale-150 transition-all"/>
 
 ### Vote
-After completing the process of drafting the How Might We (HMW) statements, we immediately proceeded to a voting session, which lasted for 10 minutes. During this engaging session, our team aimed to identify and eliminate any repetitive HMW statements while prioritizing the most impactful ones for our project.
-<img src="/vote1.jpg" alt="Alt text" title="a title" width="1200" height="400" class=" hover:scale-150 transition-all"/>
+I tranferred how might we statement on the next board where I spent around 20 min sort them in category vote out HMW's that aligns with our product goal, while set aside those which aren't necssary for further exploration currently. 
+
+<img src="/Hotpads/topvoted.jpg" alt="Alt text" title="a title" width="1200" height="400" class=" hover:scale-150 transition-all"/>
+<p class="italic text-gray-400 flex items-center text-center justify-center">Top Voted How might we's</p>
+
+### Long term goals
+
+When it comes to deciding the long term goals for the project, I considered various aspects like "Why are we doing this project", "Where do we wants to be in two years from now? and then I placed each long term goals on the whiteboard.
+
+<img src="/Hotpads/longterm2.jpg" alt="Alt text" title="a title" width="1200" height="400" class=" hover:scale-150 transition-all"/>
+<img src="/Hotpads/longterm4.jpg" alt="Alt text" title="a title" width="1200" height="400" class=" hover:scale-150 transition-all"/>
+
+### Sprint Questions
+
+Unlike the Long-Term Goal, which started from a place of optimism, the Sprint Questions start from a pessimistic approach. Instead of writing what we’d like to see from the future of our work, we’re going to imagine we’ve gone forward in time to when our Long-Term Goal should have materialised, and think of all the ways that our project could have been a disaster.
+
+- What questions do we want to answer in this design sprint?
+- To meet our long term goals, what has to be made true?
+- Our project has failed it's long term goals, what may have caused this?
+
+<img src="/Hotpads/Sprintq.jpg" alt="Alt text" title="a title" width="1200" height="400" class=" hover:scale-150 transition-all"/>
 
 
+I spent 10 min writing critical assumption that are set of some questions we want to answer from this design sprint. These questions needs to be validated at some points of our design sprint. The validated questions are called Testable hypothesis which can be converted into our refined version of sprint questions.   
 
-### Long term goals and Sprint Questions
+<!-- ### The flow
 
-For the sprint long term goals, we had a conversation about: "why are we doing this project", where do we want to be two years from now? then on the digital cards we shared statements started with "In two years time"... phrases to capture the long term vision of our solution.
+Each participant given approximately 5 min to draw their own quick flow diagram. It was rapid and intense exercise, where everyone expressed their own set of unique perspectives and ideas.
 
-In the next step, we ideated about what could stop us from getting to the long term goal and what should we need overcome to meet our long term goal. Our statement begin with the "Can we" phrase.
+<div class="grid grid-cols-1 gap-4">
+  <div class="flex flex-col gap-3 text-center items-center justify-center">
+    <div class="image-container">
+      <img src="/Hotpads/map.jpg" alt="Alt text" title="a title" width="1200" height="400" class="shadow-md" />
+      <p class="italic m-0 text-gray-600">The map I presented</p>
+    </div>
+  </div>
+</div> -->
 
-<img src="/longterm.jpg" alt="Alt text" title="a title" width="1200" height="400" class=" hover:scale-150 transition-all"/>
+### The Map and the Target Focus
 
+<img src="/Hotpads/map3.jpg" alt="Alt text" title="a title" width="1200" height="400" class="shadow-md" />
 
-## Map 
+With our final map concluded with a deep discussion. The customer journey map helped us puts us in the shoes of the users, enabling us to see the entire experience from the viewpoint. By empathizing with their journey, we can identify the gaps and opportunities to enhance their interaction with product that we're making.
+ 
+## Day 2 - Define and Sketch
 
-With all the insights and findings on a single place this helped us creating a user map. User journey map shows us the path user would take to complete a process and reaching their goal.
+Now that we defined our goal, sprint questions and framed the user journey map with the exact questions we want to answer, it is the time for the creativity to flow! 
 
-<img src="/themap.png" alt="Alt text" title="a title" width="1200" height="400" class="shadow-md"/>
+### <u>Lightning Demos</u>
 
-We have successfully crafted a comprehensive user journey map that outlines the path a user would undertake to achieve their task, highlighting the actions they take to accomplish it
+Up until now, we’ve been in a state of active learning, working with experts and activities to understand the problem we are facing and map the current situation that our customers or users are going through. 
 
-This detailed map proved to be an invaluable tool in guiding us towards setting a clear target focus for our sprint. For this sprint we chose to focus on only one actor "User" throughout the sprint we aimed to solve problems identified for the users which eventually became our target focus.
-<pre class="bg-[white]"></pre>
+<img src="/Hotpads/board.jpg" alt="Alt text" title="a title" width="1200" height="400" class=" hover:scale-150 transition-all" />
 
-<h2 class="font-Armio text-2xl">Day2 - Define and Sketch</h2>
-<pre class="bg-[white]"></pre>
+With the Lightning Demos, we start to bring all that information together into active research, looking for solutions and products that may have already done part of what we’re looking to achieve, and demoing the key learning from each of our researched subjects to the rest of the Sprint Team, so that we can all learn together.
 
-We 
+### <u>3 Step Sketching</u>
 
-### Lightning Demo
+This is the longest process of the day, during the 4 step sketching I followed the similar process drafting the solution sketches for the problem we found in the previous activities.
+
+On this day, I did a bunch of sketching. I came up with various ideas and solutions, even though we might not realize how small some of these ideas are. It's interesting to think about how even tiny ideas could lead to big opportunities in the future.
+
+<img src="/Hotpads/noteboard1.jpg" alt="Alt text" title="a title" width="1200" height="400" class=" hover:scale-150 transition-all" />
+
+Then I moved towards refining these ideas through Crazy'8 Exercise, where I generated 8 different possible solution to the ideas. This allowed me to take better decision.
+
+For drafting solutions I sometimes feel like pen and paper is better than any other online tools, So I've used both ways online and offline to draft my solutions.
