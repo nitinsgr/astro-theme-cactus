@@ -138,7 +138,7 @@ This is the longest process of the day, during the 4 step sketching I followed t
 
 On this day, I did a bunch of sketching. I came up with various ideas and solutions, even though we might not realize how small some of these ideas are. It's interesting to think about how even tiny ideas could lead to big opportunities in the future.
 
-<img src="/Hotpads/noteboard1.jpg" alt="Alt text" title="a title" width="1200" height="400" class=" hover:scale-150 transition-all" />
+<img src="/Hotpads/noteboard1.jpg" alt="Alt text" title="a title" width="1200" height="400" />
 
 Then I moved towards refining these ideas through Crazy'8 Exercise, where I generated 8 different possible solution to the ideas. This allowed me to take better decision.
 
