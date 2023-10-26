@@ -15,13 +15,13 @@ const postDate = getFormattedDate(date);
 ---
 
 <div class="container m-auto grid grid-cols-2 font-Arimo">
-	<!-- {post.data.ogImage && (
+	 {post.data.ogImage && (
 		<div>
 			<img class="object-fit justify-center rounded-lg" width="300" height="300" src={post.data.ogImage} alt={post.data.title} />	
 		</div>
-	  )}  -->
+	  )} 
 	<Element>
-		<a href={`/posts/${post.slug}/`} class=" text-xl underline font-SourceSerifPro-Black " rel="prefetch">
+		<a href={`/posts/${post.slug}/`} class=" text-2xl underline font-Raleway " rel="prefetch">
 			{post.data.title}
 		</a>
 	</Element>
