@@ -38,7 +38,7 @@ const { headings } = await post.render();
 </script>
 
 <BaseLayout meta={{ title, description, articleDate, ogImage: socialImage, logo }}>
-	<div class="gap-x-10 lg:max-w-3xl lg:flex lg:items-start font-opensans">
+	<div class="gap-x-10 lg:max-w-5xl lg:flex lg:items-start font-opensans">
 		<!-- {
 			!!headings.length && (
 			<aside class="sticky top-20 order-2 -me-32 hidden basis-72 lg:block font-Aileron-Bold">
@@ -69,8 +69,8 @@ const { headings } = await post.render();
 		<article class="flex-grow break-words" data-pagefind-body>
 			<div id="blog-hero"><BlogHero content={post} /></div>
 			<div class="grid grid-cols-1 mt-20">
-				<div class="col-span-2 flex items-center justify-center">
-				  <article class="prose prose-cactus max-w-screen-2xl">
+				<div class="col-span-6 flex items-center justify-center">
+				  <article class="prose prose-cactus max-w-screen-4xl">
 					<slot/>
 				  </article>
 				</div>

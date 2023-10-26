@@ -102,9 +102,7 @@ Unlike the Long-Term Goal, which started from a place of optimism, the Sprint Qu
 I spent 10 min writing critical assumption that are set of some questions we want to answer from this design sprint. These questions needs to be validated at some points of our design sprint. The validated questions are called Testable hypothesis which can be converted into our refined version of sprint questions.   
 
 <!-- ### The flow
-
 Each participant given approximately 5 min to draw their own quick flow diagram. It was rapid and intense exercise, where everyone expressed their own set of unique perspectives and ideas.
-
 <div class="grid grid-cols-1 gap-4">
   <div class="flex flex-col gap-3 text-center items-center justify-center">
     <div class="image-container">
@@ -119,7 +117,7 @@ Each participant given approximately 5 min to draw their own quick flow diagram.
 <img src="/Hotpads/map3.jpg" alt="Alt text" title="a title" width="1200" height="400" class="shadow-md" />
 
 With our final map concluded with a deep discussion. The customer journey map helped us puts us in the shoes of the users, enabling us to see the entire experience from the viewpoint. By empathizing with their journey, we can identify the gaps and opportunities to enhance their interaction with product that we're making.
- 
+
 ## Day 2 - Define and Sketch
 
 Now that we defined our goal, sprint questions and framed the user journey map with the exact questions we want to answer, it is the time for the creativity to flow! 

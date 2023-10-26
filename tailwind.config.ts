@@ -23,11 +23,25 @@ export default {
 	  maxWidth: {
 		half: "200%",
 	  },
+	  fontWeight: {
+		thin: '100',
+		hairline: '100',
+		extralight: '200',
+		light: '300',
+		normal: '400',
+		medium: '500',
+		semibold: '600',
+		bold: '700',
+		extrabold: '800',
+		black: '900',
+	  },
 	  fontFamily: {
 		// ... (existing fonts)
 		'Aileron-Black': ['Aileron-Black', 'sans-serif'],
 		'Aileron-Bold': ['Aileron-Bold', 'sans-serif'],
+		Lato:['Lato', 'sans-serif'],
 		'Raleway': ['Raleway', 'sans-serif'],
+		'SourceSerif4':['Source Serif 4','serif'],
 		'SourceSerifPro-Black': ['SourceSerifPro-Black','serif'],
 	  },
 	  fontSize: {
@@ -37,8 +51,8 @@ export default {
         'base': '1rem',    // Base (16px)
         'lg': '1.125rem',  // Large (18px)
         'xl': '1.25rem',   // Extra Large (20px)
-        '2xl': '1.5rem',   // 2X Large (24px)
-        '3xl': '1.875rem', // 3X Large (30px)
+        '2xl': '1.2rem',   // 2X Large (24px)
+        '3xl': '1.675rem', // 3X Large (30px)
         '4xl': '2.25rem',  // 4X Large (36px)
         '5xl': '3rem',     // 5X Large (48px)
         '6xl': '4rem',     // 6X Large (64px)
@@ -62,24 +76,28 @@ export default {
 			"--tw-prose-th-borders": "#666",
 			h2: {
 			  fontSize: theme("fontSize.2xl"),
-			  fontFamily: "Raleway, sans-serif",
+			  fontFamily: "Lato, sans-serif",
+			//   fontFamily: "Libre Baskerville, serif",
+			  fontWeight: theme("fontWeight.bold")
 
 			  // Add any other styles specific to h1 here
 			},
 			h3: {
 				fontSize: theme("fontSize.xl"),
-				fontFamily: "Raleway, sans-serif",
+				fontFamily: "Lato, sans-serif",
+				fontWeight:theme("fontWeight.extrabold")
+				
 
 				// Add any other styles specific to h1 here
 			  },
 			"h1, h2, h3, h4, h5, h6": {
-			fontFamily: "Raleway, sans-serif",
+			
 
 			},
-			"p, span, a, B": {
-			  fontFamily: "SourceSerifPro-Regular, Serif",
+			"p, span, a, B, ol,li": {
+			  fontFamily: "SourceSerif4, serif",
 			  lineHeight: "1.4",
-			  fontSize: theme("fontSize.[xl]")
+			  fontSize: theme("fontSize.[2xl]")
 			  // Add any other text-specific styles here
 			},
 			"li": {
@@ -87,6 +105,11 @@ export default {
 				fontSize: theme("fontSize.xl"),
 				lineHeight: "1.4",
 				// Add any other text-specific styles here
+			  },
+			  "ol":{
+				fontFamily: "SourceSerif4, serif",
+				fontSize: theme("fontSize.2xl"),
+				lineHeight: "1.4",
 			  },
 			  "b": {
 				fontFamily: "SourceSerifPro-Regular, Serif",
@@ -113,6 +136,7 @@ export default {
   plugins: [
     require("@tailwindcss/typography"),
     require("@tailwindcss/aspect-ratio"),
+	[require("tw-elements/dist/plugin.cjs")],
     plugin(function ({ addComponents }) {
       addComponents({
         // ... (existing components)
